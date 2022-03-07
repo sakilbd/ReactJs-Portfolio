@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './header.css';
 import CTA from './CTA.js';
-import ME from '../../Assets/me.jpg'
+import ME from '../../Assets/about_me.PNG'
 import HeaderSocials from './HeaderSocials';
 
 class Header extends Component {
