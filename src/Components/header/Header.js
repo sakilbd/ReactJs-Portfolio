@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
+import './header.css';
 
 class Header extends Component {
     state = {  } 
     render() { 
-        return (<div>Header</div>);
+        return (
+        <header>
+            <div className="container header__container">
+               <h5>Hello I'm</h5>
+               <h1>John</h1>
+               <h5 className="text-light">Singer</h5>
+
+            </div>
+        </header>
+            );
     }
 }
  
