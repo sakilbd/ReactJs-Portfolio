@@ -64,7 +64,7 @@ section>h5 {
     color: var(--color-light);
 }
 
-.btn {
+.button {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -75,7 +75,25 @@ section>h5 {
     transition: var(--transition);
 }
 
-.btn:hover {
+.button:hover {
     background: white;
     color: var(--color-bg)
+}
+
+@media screen and (max-width:1024px) {
+    .continer {
+        width: var(--container-width-md);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .continer {
+        width: var(--container-width-sm);
+    }
+    section>h2 {
+        margin-bottom: 2rem;
+    }
 }

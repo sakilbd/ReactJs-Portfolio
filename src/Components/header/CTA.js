@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import CV from '../../Assets/cv.pdf'
+import CV from '../../Assets/cv.pdf';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class CTA extends Component {
     state = {  } 
     render() { 
         return (
-            <div>
-                <a href={CV} download className="btn">Download CV</a>
-                <a href="" className="btn">Let's Talk</a>
+            <div className="cta">
+                <a href={CV} download className="btn btn-secondary ">Download CV</a>
+                <a href="#contact" className="btn btn-primary">Let's Talk</a>
             </div>
         );
     }
