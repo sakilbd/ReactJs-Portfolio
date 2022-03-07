@@ -4,7 +4,7 @@ class About extends Component {
     state = {  } 
     render() { 
         return (
-            <div>About</div>
+            <section id="about">About</section>
         );
     }
 }

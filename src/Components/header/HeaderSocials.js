@@ -8,7 +8,7 @@ class HeaderSocials extends Component {
         return (
             <div className="header__socials">
                 <a href="https://linkedin.com"><BsLinkedin/></a> 
-                <a href="https://github.com"><BsGithub/></a>    
+                <a href="https://github.com/sakilbd"><BsGithub/></a>    
                    
    
             </div>
