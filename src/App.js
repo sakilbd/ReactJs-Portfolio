@@ -11,7 +11,6 @@ import Testimonials from './Components/testimonials/Testimonials';
 import Contact from './Components/contact/Contact';
 import Footer from './Components/footer/Footer';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 
 
