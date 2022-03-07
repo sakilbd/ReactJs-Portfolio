@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './header.css';
+import CTA from './CTA.js';
 
 class Header extends Component {
     state = {  } 
@@ -10,7 +11,7 @@ class Header extends Component {
                <h5>Hello I'm</h5>
                <h1>John</h1>
                <h5 className="text-light">Singer</h5>
-
+                <CTA/>
             </div>
         </header>
             );
