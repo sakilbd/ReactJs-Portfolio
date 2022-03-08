@@ -31,6 +31,12 @@ header {
     bottom: 3rem;
 }
 
+.header__socials a:hover {
+    transform: scale(1.8);
+    color: white;
+    transition: var(--transition);
+}
+
 .header__socials::after {
     content: '';
     width: 1px;

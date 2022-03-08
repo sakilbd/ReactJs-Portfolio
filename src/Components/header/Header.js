@@ -16,7 +16,7 @@ class Header extends Component {
                 <CTA/>
                 <HeaderSocials/>
                 <div className="me">
-                    <img src={ME}></img>
+                    {/* <img src={ME}></img> */}
                 </div>
                 <a href="#contact" className="scroll__down">Scroll Down</a>
                 
