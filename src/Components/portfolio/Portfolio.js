@@ -14,7 +14,7 @@ class Portfolio extends Component {
                     <div className="portfolio__item-image">
                         <img src={IMG1} alt=""></img>
                     </div>
-                        <h3>This is a portfolio item title</h3>
+                        <h3>Linked In Clone</h3>
                         <div className="portfolio__item-cta">
                             <a href="https://github.com" className="button" target='_blank'>Github</a>
                             <a href="https://github.com" className="button button-primary">Live Demo</a>
