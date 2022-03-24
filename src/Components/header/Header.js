@@ -3,6 +3,7 @@ import './header.css';
 import CTA from './CTA.js';
 import ME from '../../Assets/about_me.PNG'
 import HeaderSocials from './HeaderSocials';
+import HeaderLottie from '../lottie/header/header-lottie';
 
 class Header extends Component {
     state = {  } 
@@ -15,7 +16,9 @@ class Header extends Component {
                <h5 className="text-light">Full Stack Developer</h5>
                 <CTA/>
                 <HeaderSocials/>
+                
                 <div className="me">
+                <HeaderLottie/>
                     {/* <img src={ME}></img> */}
                 </div>
                 <a href="#contact" className="scroll__down">Scroll Down</a>

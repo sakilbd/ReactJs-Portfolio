@@ -3,6 +3,7 @@ import './contact.css';
 import {MdOutlineEmail} from 'react-icons/md';
 import {RiMessengerLine} from 'react-icons/ri';
 import {BsWhatsapp} from 'react-icons/bs';
+import Example from '../lottie/lottie';
 class Contact extends Component {
     state = {  } 
     render() { 
@@ -39,6 +40,9 @@ class Contact extends Component {
                     <button type="submit" className="button button-primary">Send Message</button>
 
                 </form>
+                <div className="lottie">
+                <Example/>
+                </div>
             </div>
         </section >);
     }

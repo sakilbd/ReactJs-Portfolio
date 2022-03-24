@@ -1,7 +1,7 @@
 .container.contact__container {
     width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
+    grid-template-columns: 30% 58% 30%;
     gap: 12%;
 }
 
@@ -68,4 +68,10 @@ textarea {
         grid-template-columns: 1fr;
         width: var(--container-width-sm);
     }
+}
+
+.lottie {
+    float: center;
+    height: 100%;
+    width: 50%;
 }
