@@ -1,5 +1,6 @@
 import { useLottie } from "lottie-react";
 import contactMe from "./header-lottie.json";
+import peripheral from "./2022-06-30 16-45-34.json";
 
 const HeaderLottie = () => {
     const options = {

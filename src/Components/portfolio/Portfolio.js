@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import IMG1 from'../../Assets/linkedin_clone.PNG';
+import peripheralGif from '../../Assets/peripheral.gif'
 import './portfolio.css';
 
 class Portfolio extends Component {
@@ -22,9 +23,9 @@ class Portfolio extends Component {
                 </article>
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={IMG1} alt=""></img>
+                        <img src={peripheralGif} alt=""></img>
                     </div>
-                        <h3>This is a portfolio item title</h3>
+                        <h3>Sensometer</h3>
                         <div className="portfolio__item-cta">
                             <a href="https://github.com" className="button" target='_blank'>Github</a>
                             <a href="https://github.com" className="button button-primary">Live Demo</a>
