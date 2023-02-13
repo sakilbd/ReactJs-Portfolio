@@ -31,6 +31,18 @@ header {
     bottom: 3rem;
 }
 
+.header__socials a {
+    font-size: 30px;
+}
+
+.header__socials a:nth-child(1) {
+    font-size: 40px;
+}
+
+.header__socials a:nth-child(2) {
+    font-size: 42px;
+}
+
 .header__socials a:hover {
     transform: scale(1.8);
     color: white;
