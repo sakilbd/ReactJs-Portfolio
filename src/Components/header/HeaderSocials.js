@@ -7,7 +7,7 @@ import {IoLogoCss3} from 'react-icons/io'
 
 
 class HeaderSocials extends Component {
-    state = {  } 
+    
     render() { 
         return (
             <div className="header__socials">

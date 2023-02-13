@@ -6,7 +6,7 @@
 }
 
 .about__me {
-    width: 105%;
+    /* width: 105%; */
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, skyblue, transparent);

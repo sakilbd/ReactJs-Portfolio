@@ -62,14 +62,16 @@ header {
 .me {
     /* background: red; */
     width: auto;
-    height: 40rem;
+    /* height: auto; */
+    height: 60rem;
     position: absolute;
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    /* margin-top: 4rem; */
+    /* border-radius: 12rem 12rem 0 0; */
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+    /* background: red; */
 }
 
 .scroll__down {
@@ -79,6 +81,19 @@ header {
     transform: rotate(90deg);
     font-weight: 200;
     font-size: 0.9rem;
+}
+
+@media screen and (max-width:1024px) {
+    .me {
+        height: 20rem;
+    }
+    .me svg {
+        /* background: yellow; */
+        width: 600px;
+        height: 600px;
+        transform: scale(1.8);
+        overflow: visible !important;
+    }
 }
 
 @media screen and (max-width:1024px) {
