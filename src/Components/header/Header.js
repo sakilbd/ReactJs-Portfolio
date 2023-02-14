@@ -18,8 +18,10 @@ class Header extends Component {
                 <HeaderSocials/>
                 
                 <div className="me">
-                <HeaderLottie/>
-                    {/* <img src={ME}></img> */}
+                {/* <HeaderLottie/> */}
+                <div className="image">
+                    <img src={ME}></img>
+                    </div>
                 </div>
                 <a href="#contact" className="scroll__down">Scroll Down</a>
                 

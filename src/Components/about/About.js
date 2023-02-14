@@ -24,7 +24,7 @@ class About extends Component {
                             <article className='about__card'>
                                 <FaAward className='about__icon'/>
                                 <h5>Experience</h5>
-                                <small>1+ Years Working</small>
+                                <small>2+ Years Working</small>
                             </article>
                         
                     
@@ -32,7 +32,7 @@ class About extends Component {
                             <article className='about__card'>
                                 <FiUsers className='about__icon'/>
                                 <h5>Clients</h5>
-                                <small>12+ Clients</small>
+                                <small>6+ Clients</small>
                             </article>
                         
                    
@@ -40,15 +40,12 @@ class About extends Component {
                             <article className='about__card'>
                                 <VscFolderLibrary className='about__icon'/>
                                 <h5>Projects </h5>
-                                <small>15+ Completed</small>
+                                <small>5+ Completed</small>
                             </article>
                         </div>
                    
                     <p>
-                    A highly organised and efficient individual, whose thorough and precise approach to projects
-                    has yielded excellent results. To build a career in a growing organization,where I can get the
-                    opportunities to prove my abilities by accepting challenges, fulfilling the organization goal and
-                    climb the career ladder through continuous learning and commitment
+                    Experienced software developer with a strong background in Laravel and ReactJS. Proficient in developing dynamic and scalable web applications with a focus on user experience. Adept at using modern web technologies to solve complex problems and deliver high-quality solutions. Committed to staying up-to-date with the latest development trends and best practices in the industry. Seeking a challenging role where I can utilize my skills and knowledge to contribute to the success of the organization.
                     </p>
                     <a href="#contact" className="btn btn-primary"> Let's Talk</a>
                     </div>
