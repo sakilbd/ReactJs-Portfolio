@@ -32,15 +32,15 @@ header {
 }
 
 .header__socials a {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .header__socials a:nth-child(1) {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .header__socials a:nth-child(2) {
-    font-size: 42px;
+    font-size: 32px;
 }
 
 .header__socials a:hover {

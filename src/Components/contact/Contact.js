@@ -40,9 +40,9 @@ class Contact extends Component {
                     <button type="submit" className="button button-primary">Send Message</button>
 
                 </form>
-                <div className="lottie">
+                {/* <div className="lottie">
                 <Example/>
-                </div>
+                </div> */}
             </div>
         </section >);
     }

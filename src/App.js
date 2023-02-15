@@ -27,7 +27,7 @@ return (
   <Portfolio/>
   {/* <Testimonials/> */}
   <Contact/>
-  <Footer/>
+  {/* <Footer/> */}
   </>
   );
 }

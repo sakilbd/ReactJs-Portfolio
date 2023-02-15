@@ -18,6 +18,7 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    white-space: initial;
 }
 
 .contact__option:hover {
@@ -34,6 +35,10 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+}
+
+.contact__option h5 {
+    overflow: scroll;
 }
 
 

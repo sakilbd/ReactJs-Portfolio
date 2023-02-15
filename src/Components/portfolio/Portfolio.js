@@ -3,6 +3,9 @@ import IMG1 from'../../Assets/linkedin_clone.PNG';
 import peripheralGif from '../../Assets/peripheral.gif';
 import VEHICLE from '../../Assets/vehicle.PNG';
 import PIMS from '../../Assets/PIMS.PNG';
+import SPA1 from '../../Assets/spa1.PNG';
+import SPA2 from '../../Assets/spa2.PNG';
+import WAREHOUSE from '../../Assets/warehouse.gif';
 import './portfolio.css';
 
 class Portfolio extends Component {
@@ -55,12 +58,32 @@ class Portfolio extends Component {
                 </article>
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={PIMS} alt=""></img>
+                        <img src={WAREHOUSE} alt=""></img>
                     </div>
-                        <h3>Asset Tracking System</h3>
+                        <h3>Warehouse Management System</h3>
                         <div className="portfolio__item-cta">
                             {/* <a href="https://github.com" className="button" target='_blank'>Github</a> */}
-                            {/* <a href="https://github.com" className="button button-primary" target='_blank'>Live Demo</a> */}
+                            <a href="https://www.youtube.com/watch?v=MNnKm9GoTnI&ab_channel=MdSakiluzzaman" className="button button-primary" target='_blank'>Demo Video</a>
+                        </div>
+                </article>
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={SPA1} alt=""></img>
+                    </div>
+                        <h3>Single Page Application 1</h3>
+                        <div className="portfolio__item-cta">
+                            {/* <a href="https://github.com" className="button" target='_blank'>Github</a> */}
+                            <a href="http://spa.mdsakiluzzaman.com/" className="button button-primary" target='_blank'>Live Demo</a>
+                        </div>
+                </article>
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={SPA2} alt=""></img>
+                    </div>
+                        <h3>Single Page Application 2</h3>
+                        <div className="portfolio__item-cta">
+                            {/* <a href="https://github.com" className="button" target='_blank'>Github</a> */}
+                            <a href="http://spa.mdsakiluzzaman.com/spa2" className="button button-primary" target='_blank'>Live Demo</a>
                         </div>
                 </article>
                 
