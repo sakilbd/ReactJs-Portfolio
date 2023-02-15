@@ -20,7 +20,7 @@ render(){
 return (
   <>
   <Header/>
-  <Nav/>
+  {/* <Nav/> */}
   <About/>
   <Experience/>
   {/* <Services/> */}

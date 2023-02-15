@@ -47,7 +47,7 @@ class About extends Component {
                     <p>
                     Experienced software developer with a strong background in Laravel and ReactJS. Proficient in developing dynamic and scalable web applications with a focus on user experience. Adept at using modern web technologies to solve complex problems and deliver high-quality solutions. Committed to staying up-to-date with the latest development trends and best practices in the industry. Seeking a challenging role where I can utilize my skills and knowledge to contribute to the success of the organization.
                     </p>
-                    <a href="#contact" className="btn btn-primary"> Let's Talk</a>
+                    <a href="#contact" className="button button-primary"> Let's Talk</a>
                     </div>
 
                 </div>

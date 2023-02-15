@@ -8,8 +8,8 @@ class CTA extends Component {
     render() { 
         return (
             <div className="cta">
-                <a href={CV} download className="btn btn-secondary ">Download CV</a>
-                <a href="#contact" className="btn btn-primary">Let's Talk</a>
+                <a href={CV} download className="button ">Download CV</a>
+                <a href="#contact" className="button button-primary">Let's Talk</a>
             </div>
         );
     }

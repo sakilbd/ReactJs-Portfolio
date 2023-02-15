@@ -11,6 +11,10 @@
     gap: 1.2rem;
 }
 
+.footer {
+    height: 4rem;
+}
+
 .contact__option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
