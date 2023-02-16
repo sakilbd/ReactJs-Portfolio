@@ -24,13 +24,14 @@ class Contact extends Component {
                 <RiMessengerLine className="contact__option-icon" />
                 <h4>Messenger</h4>
                 <h5>মোঃ শাকিল </h5>
-                <a href="https://m.me/মোঃ শাকিল ">Send a message</a>
+                <a href="https://m.me/100041534656071">Send a message</a>
+                {/* <a href="https://msng.link/o/?100041534656071&mibextid=ZbWKwL">Message me on Facebook Messenger</a> */}
               </article>
               <article className="contact__option">
                 <BsWhatsapp className="contact__option-icon" />
                 <h4>WhatsApp</h4>
                 <h5>Md Sakiluzzaman</h5>
-                <a href="https://api.whatsapp.com/send?phone=01749498898">
+                <a href="https://api.whatsapp.com/send?phone=+8801749498898">
                   Send a message
                 </a>
               </article>
