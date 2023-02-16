@@ -6,11 +6,15 @@ import PIMS from "../../Assets/PIMS.PNG";
 import SPA1 from "../../Assets/spa1.PNG";
 import SPA2 from "../../Assets/spa2.PNG";
 import WAREHOUSE from "../../Assets/warehouse.gif";
+import { features } from "./Features";
+
 import "./portfolio.css";
 
 function Portfolio() {
   const [info, setInfo] = useState(false);
-  console.log(info);
+  const [section, setSection] = useState("");
+  //   console.log(info);
+  //   console.log(features.sensometer[2]);
 
   //   state = {};
 
@@ -30,25 +34,15 @@ function Portfolio() {
             Close
           </a>
           <h1>Sensometer</h1>
-          <div>
-            A CSS-only modal based on the :target pseudo-class. Hope you find it
-            helpful.
-          </div>
-          <div>
-            <small>Check out 👇</small>
-          </div>
-          <a href="#portfolio" title="Close" class="modal-close">
-            Close
-          </a>
-          <h1>Sensometer</h1>
-          <div>
-            A CSS-only modal based on the :target pseudo-class. Hope you find it
-            helpful.
-          </div>
-          <div>
-            <small>Check out 👇</small>
-          </div>
-          Your new favorite eyedropper tool!
+          <ul className="">
+            {features[section]?.map((item) => {
+              return (
+                <>
+                  <li>{item}</li>
+                </>
+              );
+            })}
+          </ul>
         </div>
       </div>
       <div className="container portfolio__container">
@@ -78,15 +72,10 @@ function Portfolio() {
             </a>
             <a
               href="#open-modal"
-              target="_blank"
-              className="btn button button-primary"
-              //   onClick={() => setInfo(!info)}
-            //   onMouseOver={() => setInfo(!info)}
-            //   onMouseOut={() => setInfo(!info)}
+              className="button button-seconday"
+              onClick={() => setSection("sensometer")}
             >
-              <a className="btn" href="#open-modal">
-                Click for Features
-              </a>
+              Click for Features
             </a>
           </div>
         </article>
@@ -104,6 +93,13 @@ function Portfolio() {
             >
               Live Demo
             </a>
+            <a
+              href="#open-modal"
+              className="button button-seconday"
+              onClick={() => setSection("vehicle")}
+            >
+              Click for Features
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -114,6 +110,13 @@ function Portfolio() {
           <div className="portfolio__item-cta">
             {/* <a href="https://github.com" className="button" target='_blank'>Github</a> */}
             {/* <a href="https://github.com" className="button button-primary" target='_blank'>Live Demo</a> */}
+            <a
+              href="#open-modal"
+              className="button button-seconday"
+              onClick={() => setSection("pims")}
+            >
+              Click for Features
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -129,6 +132,13 @@ function Portfolio() {
               target="_blank"
             >
               Demo Video
+            </a>
+            <a
+              href="#open-modal"
+              className="button button-seconday"
+              onClick={() => setSection("warehouse")}
+            >
+              Click for Features
             </a>
           </div>
         </article>
