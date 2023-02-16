@@ -30,7 +30,7 @@ class Contact extends Component {
                 <BsWhatsapp className="contact__option-icon" />
                 <h4>WhatsApp</h4>
                 <h5>Md Sakiluzzaman</h5>
-                <a href="https://api.whatsapp.com/send?phone01749498898">
+                <a href="https://api.whatsapp.com/send?phone=01749498898">
                   Send a message
                 </a>
               </article>
