@@ -16,14 +16,14 @@ class Experience extends Component {
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience_details-icon" />
                 <div>
-                  <h4>HTML</h4>
+                  <h4>HTML5</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </article>
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience_details-icon" />
                 <div>
-                  <h4>CSS</h4>
+                  <h4>CSS3</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </article>
@@ -37,7 +37,7 @@ class Experience extends Component {
               <article className="experience__details">
                 <BsFillPatchCheckFill className="experience_details-icon" />
                 <div>
-                  <h4>React</h4>
+                  <h4>React Js</h4>
                   <small className="text-light">Intermediate</small>
                 </div>
               </article>
