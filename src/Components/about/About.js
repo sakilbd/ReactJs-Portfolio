@@ -32,7 +32,7 @@ class About extends Component {
                             <article className='about__card'>
                                 <FiUsers className='about__icon'/>
                                 <h5>Clients</h5>
-                                <small>6+ Clients</small>
+                                <small>12+ Clients</small>
                             </article>
                         
                    

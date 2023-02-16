@@ -24,11 +24,7 @@ const title ={
     <section id="portfolio">
       <h5>My Recent works</h5>
       <h2>Portfolio</h2>
-      <div className={"features" + (info ? " show" : "")}>
-        <div>
-          <p>-feature one</p>
-        </div>
-      </div>
+      
 
       <div id="open-modal" class="modal-window">
         <div>

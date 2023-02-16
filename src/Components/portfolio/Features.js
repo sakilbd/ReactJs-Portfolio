@@ -12,11 +12,11 @@ export const features = {
     "The UHF antenna helps to automatically detect the arrival and departure of vehicles, eliminating the need for manual entry of information",
   ],
   warehouse: [
-    "Asset Tracking System is a software that tracks and logs entry and exit of assets using RFID",
+    "Warehouse Management System is a software that tracks and logs entry and exit of assets using RFID",
     "It has realtime box measurement system and assign them into rack shells through web by using hardware",
     "The UI provides a platform for monitoring various assets and provides relevant information",
     "The module built in Unity uses WebGL technology to display different rack shell products with descriptions",
     "Provides an interactive and visually appealing way to showcase and describe different products",
   ],
-  pims: ['PIMS is a software where relevant information of Land Port govt. employees are saved','•Developed Personal Data Sheet(PDS) for PIMS'],
+  pims: ['PIMS is a software where relevant information of Land Port govt. employees are saved','Developed Personal Data Sheet(PDS) for PIMS'],
 };
