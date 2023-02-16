@@ -77,7 +77,7 @@ const title ={
               className="button button-seconday"
               onClick={() => setSection("sensometer")}
             >
-              Click for Features
+              Features
             </a>
           </div>
         </article>
@@ -100,7 +100,7 @@ const title ={
               className="button button-seconday"
               onClick={() => setSection("vehicle")}
             >
-              Click for Features
+              Features
             </a>
           </div>
         </article>
@@ -117,7 +117,7 @@ const title ={
               className="button button-seconday"
               onClick={() => setSection("pims")}
             >
-              Click for Features
+              Features
             </a>
           </div>
         </article>
@@ -140,7 +140,7 @@ const title ={
               className="button button-seconday"
               onClick={() => setSection("warehouse")}
             >
-              Click for Features
+              Features
             </a>
           </div>
         </article>
