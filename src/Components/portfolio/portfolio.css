@@ -104,9 +104,9 @@
     }
     
     .modal-window>div {
-        width: 70%;
+        width: 50%;
         position: absolute;
-        height: 80%;
+        /* height: 80%; */
         /* top: 50%;
     left: 50%; */
         /* transform: translate(-50%, -50%); */
@@ -162,20 +162,18 @@
     small {
         color: lightgray;
     }
-    /* .btn {
-    background-color: white;
-    border: none;
-}
-
-.btn i {
-    padding-right: 0.3em;
-} */
     
     .button-seconday {
         background: white;
         color: black;
     }
     
-    ul>li {
-        /* list-style-type: squre; */
+    li {
+        list-style-type: squre;
+    }
+    
+    @media screen and (max-width:600px) {
+        .modal-window>div {
+            width: 90%;
+        }
     }

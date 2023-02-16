@@ -13,10 +13,12 @@ import "./portfolio.css";
 function Portfolio() {
   const [info, setInfo] = useState(false);
   const [section, setSection] = useState("");
-  //   console.log(info);
-  //   console.log(features.sensometer[2]);
-
-  //   state = {};
+const title ={
+    sensometer:'Sensometer',
+    vehicle:'Vehicle Tracking System',
+    pims:'Personal Information Management System',
+    warehouse:'Warehouse Management System',
+ }
 
   return (
     <section id="portfolio">
@@ -33,7 +35,7 @@ function Portfolio() {
           <a href="#portfolio" title="Close" class="modal-close">
             Close
           </a>
-          <h1>Sensometer</h1>
+          <h1>{title[section]}</h1>
           <ul className="">
             {features[section]?.map((item) => {
               return (
